@@ -1,2 +1,8 @@
 #!/bin/bash
-echo "Best School" > "\*\\\'\"Best School"\'\\\*$\?\*\*\*\*\*:)"
+
+filename="*\\\\'\"Best School\"'\\\\*$?*****:)"
+text="Best School"
+
+# Create the file with the specified filename
+echo "$text" > "$filename"
+echo "File '$filename' created."
