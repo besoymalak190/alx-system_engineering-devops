@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $PATH | tr ':' '/n' | wc-l
+path_dirs=$(echo "$PATH" | tr ':' '\n')
+dir_count=0
